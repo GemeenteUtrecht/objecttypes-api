@@ -1,0 +1,25 @@
+apiVersion: v1
+entries:
+  objecttypes:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-03-08T21:50:03.654154204Z"
+    dependencies:
+    - name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - postgresql
+      version: ~10.2.0
+    - name: redis
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - redis
+      version: ~13.0.0
+    description: A Helm chart for Objecttypes API
+    digest: 2d7c71155ecb0a67cd579a820c32b664a5aac4ecc94fbb086810fbec0870eb34
+    name: objecttypes
+    type: application
+    urls:
+    - https://github.com/GemeenteUtrecht/objecttypes-api/releases/download/objecttypes-0.2.0/objecttypes-0.2.0.tgz
+    version: 0.2.0
+generated: "2022-03-08T21:50:03.654168504Z"
