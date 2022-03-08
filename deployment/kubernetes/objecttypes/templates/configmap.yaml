@@ -25,3 +25,4 @@ data:
   {{- if .Values.settings.siteId }}
   SITE_ID: {{ .Values.settings.siteId | toString | quote }}
   {{- end }}
+  TEST: "abc123"
